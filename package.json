@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  },
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "atividade02.js",
+  "type": "module",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ariane1504/BackEnd.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ariane1504/BackEnd/issues"
+  },
+  "homepage": "https://github.com/ariane1504/BackEnd#readme",
+  "description": ""
+}

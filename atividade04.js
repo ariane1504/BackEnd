@@ -15,7 +15,7 @@ let produtoEmbalado ={
     peso: 1.5,
     preco:3500.00
 };
-console.log('o produto embalado',produtoEmbalado.nome,'da categoria', produtoEmbalado.categoria, 'pesando', produtoEmbalado.peso,'kg, esta a venda por R$', produtoEmbalado.preco)
+console.log('o produto embalado',produtoEmbalado.nome,'da categoria', produtoEmbalado.categoria, 'pesando', produtoEmbalado.peso,'kg, esta a venda por ', produtoEmbalado.preco.toLocaleString('pt-BR',{style: 'currency', currency:'BRL'}));
 
 //3
 class Imovel {
@@ -37,7 +37,7 @@ class Imovel {
     console.log(apartamentos.exibirInformacoes())
 
 //4
-class veiculo {
+class Veiculo {
     constructor(marca, modelo, ano) {
     this.marca = marca;
     this.modelo = modelo
@@ -49,8 +49,8 @@ class veiculo {
     }
     }
     
-    const carro = new veiculo("Toyota", "Corolla", 2022);
-    const motocicleta = new veiculo("Honda","CBR 600RR", 2021 );
+    const carro = new Veiculo("Toyota", "Corolla", 2022);
+    const motocicleta = new Veiculo("Honda","CBR 600RR", 2021 );
     console.log(carro.exibirDetalhes());
     console.log(motocicleta.exibirDetalhes())
 
